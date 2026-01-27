@@ -10,7 +10,9 @@ The goal of this project is to deepen the understanding of:
 - linked lists
 - low-level C programming
 
-All functions are written from scratch and compiled into a static library (libft.a) that can be reused in future projects.
+All functions are written from scratch in C and compiled into a static library (`libft.a`).
+The behavior of the reimplemented functions follows the corresponding libc functions as described in their manual pages.
+This library is intended to be reused in future 42 projects.
 
 ## Implemented Functions
 
@@ -22,7 +24,7 @@ The library includes functions from the following categories:
 - ft_isdigit
 - ft_isalnum
 - ft_isascii
-- t_isprint
+- ft_isprint
 
 ### String manipulation:
 
@@ -41,7 +43,7 @@ The library includes functions from the following categories:
 - ft_strmapi
 - ft_striteri
 
-Memory manipulation:
+### Memory manipulation:
 
 - ft_memset
 - ft_bzero
@@ -51,19 +53,19 @@ Memory manipulation:
 - ft_memcmp
 - ft_calloc
 
-Conversion:
+### Conversion:
 
 - ft_atoi
 - ft_itoa
 
-File descriptor output:
+### File descriptor output:
 
 - ft_putchar_fd
 - ft_putstr_fd
 - ft_putendl_fd
 - ft_putnbr_fd
 
-Linked list utilities:
+### Linked list utilities:
 
 - ft_lstnew
 - ft_lstadd_front
@@ -75,27 +77,28 @@ Linked list utilities:
 - ft_lstiter
 - ft_lstmap
 
+These functions provide a reusable foundation for string handling, memory operations, numeric conversions, file descriptor output, and basic linked list manipulation.
+
 # Instructions
 
-Compile the library
-```make```
+Compile the library `make`
 
-This will generate the file ```libft.a```.
+This will generate the file `libft.a`
 
 Clean object files
-```make clean```
+`make clean`
 
 Clean everything
-```make fclean```
+`make fclean`
 
 Recompile from scratch
-```make re```
+`make re`
 
 Include the header in your project
-```#include "libft.h"```
+`#include "libft.h"`
 
 Compile with your program
-```cc main.c -L. -lft```
+`cc main.c -L. -lft`
 
 
 # Resources
@@ -103,4 +106,10 @@ Compile with your program
 - man libc
 - man strlen, man memcpy, man atoi, etc.
 - 42 intra documentation
-- AI to understand some new concepts like file descriptor and linked lists
+- AI usage:
+	- AI tools were used as a learning aid to better understand certain concepts such as:
+		- file descriptors
+		- linked lists
+		- general behavior of some standard libc functions
+	- AI was not used to generate final code for the project
+- All implementations were written manually in accordance with the 42 subject rules and official documentation.
