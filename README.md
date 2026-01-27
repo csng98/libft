@@ -112,4 +112,5 @@ Compile with your program
 		- linked lists
 		- general behavior of some standard libc functions
 	- AI was not used to generate final code for the project
-- All implementations were written manually in accordance with the 42 subject rules and official documentation.
+	
+All implementations were written manually in accordance with the 42 subject rules and official documentation.
