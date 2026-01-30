@@ -6,7 +6,7 @@
 #    By: csekakul <csekakul@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/01/13 10:06:24 by csekakul          #+#    #+#              #
-#    Updated: 2026/01/26 11:55:35 by csekakul         ###   ########.fr        #
+#    Updated: 2026/01/30 08:21:36 by csekakul         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -77,4 +77,4 @@ fclean: clean
 
 re: fclean $(NAME)
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean re bonus
